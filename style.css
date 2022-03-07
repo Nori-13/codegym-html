@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.head_1 {
+    background-repeat: repeat-x;
+    background-image: url("marimekko.jpg");
+    height: 400px;
+
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px 0;
+    margin: 100px 0;
+}
+
+h2 {
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
+    color: black;
+    padding: 15px 15px;
+    margin: 50px 0;
+}
+
+h3 {
+    color: red;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.font_1 {
+    color: #00a096;
+    padding-left: 20px;
+    margin: 10px
+}
+
+.manga_list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    padding: 0;
+}
+
+.manga_list li {
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+}
+
+.manga_list img {
+    width: 400px;
+    height: 600px;
+}
+
+.music_list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    padding: 0;
+}
+
+.music_list li {
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.music_list img {
+    width: 400px;
+    height: 300px;
+}
